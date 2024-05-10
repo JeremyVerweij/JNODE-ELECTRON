@@ -7,3 +7,5 @@ JLIB.node = {};
 JLIB.node.reqRun = function(src){
     require(src)();
 }
+
+window.dispatchEvent(JLIB.common.scriptLoaded)
